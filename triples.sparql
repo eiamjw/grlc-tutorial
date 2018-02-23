@@ -2,6 +2,9 @@
 #+ endpoint: https://query.wikidata.org/sparql
 #This is the syntax for GRLC metadata
 PREFIX wdt:        <http://www.wikidata.org/prop/direct/>
+PREFIX wd:         <http://www.wikidata.org/entity/>
+PREFIX wikibase:   <http://wikiba.se/ontology#>
+PREFIX bd:         <http://www.bigdata.com/rdf#>
 
 SELECT DISTINCT ?city ?cityLabel ?population ?country ?countryLabel ?loc WHERE {
 	{
