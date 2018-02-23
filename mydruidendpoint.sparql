@@ -1,0 +1,5 @@
+#+ my data from Druid
+
+#+ endpoint: https://api.druid.datalegend.net/datasets/MartinWynne/Example/services/Example/sparql
+
+SELECT * WHERE {?s ?p ?o}
