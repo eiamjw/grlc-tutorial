@@ -1,5 +1,5 @@
 #+ summary: reproducing Martin Poulter's query for women in EE born in the 1730s
-#+ endpoint:
+#+ endpoint: https://query.wikidata.org/sparql
 
 PREFIX bd:         <http://www.bigdata.com/rdf#>
 PREFIX wdt:        <http://www.wikidata.org/prop/direct/>
